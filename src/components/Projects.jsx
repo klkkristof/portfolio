@@ -63,7 +63,7 @@ const Projects = () => {
   const projects = [
     {
       title: 'Registration Platform',
-      description: 'Full-stack registration website with payment integration, e-mail notification and a simple CRUD dashboard',
+      description: 'Full-stack registration website with payment integration, e-mail notification and a simple CRUD dashboard.',
       tech: ['React', 'Node.js', 'MongoDB', 'Tailwind CSS'],
       link: 'https://registrationrunforfreedom.ro',
       image: '/regweb.jpg',

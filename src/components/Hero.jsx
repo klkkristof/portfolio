@@ -88,8 +88,11 @@ const Hero = () => {
           Kólák Kristóf 
         </h1>
         
-        <p className="text-xl md:text-2xl text-white mb-8 drop-shadow">
-          Business Informatics student
+         <p className="text-xl md:text-2xl text-white mb-8 drop-shadow"> 
+          Business Informatics student at 
+          <a href="https://inf.unideb.hu/" target="_blank" rel="noopener noreferrer">
+            <img src="/unideb.svg" alt="UniDeb" className="inline-block w-10 h-10 ml-2" />
+          </a>
         </p>
         
         <p className="text-lg text-white max-w-2xl mx-auto mb-12 drop-shadow">

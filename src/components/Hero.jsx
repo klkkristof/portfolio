@@ -85,11 +85,11 @@ const Hero = () => {
         
         {/* Név és cím */}
         <h1 className="text-5xl md:text-6xl font-bold mb-4 text-gray-800 drop-shadow-lg">
-          Kólák Kristóf 
+          Kólák Kristóf
         </h1>
         
          <p className="text-xl md:text-2xl text-white mb-8 drop-shadow"> 
-          Business Informatics student at 
+          Business Informatics Bsc. student at 
           <a href="https://inf.unideb.hu/" target="_blank" rel="noopener noreferrer">
             <img src="/unideb.svg" alt="UniDeb" className="inline-block w-10 h-10 ml-2" />
           </a>

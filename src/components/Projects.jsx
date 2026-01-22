@@ -62,22 +62,22 @@ const Projects = () => {
 
   const projects = [
     {
-      title: 'Registration Platform',
-      description: 'Full-stack registration website with payment integration, e-mail notification and a simple CRUD dashboard.',
-      tech: ['React', 'Node.js', 'MongoDB', 'Tailwind CSS'],
+      title: 'Registration platform for an organization',
+      description: 'Full-stack registration website with payment integration, e-mail notification, admin dashboard.',
+      tech: ['React', 'Node.js', 'MongoDB', 'Tailwind'],
       link: 'https://registrationrunforfreedom.ro',
       image: '/regweb.jpg',
     },
     {
       title: 'CI/CD pipeline',
-      description: 'Learning project for experimenting with CI/CD pipelines, containerization, and Kubernetes orchestration.',
+      description: 'Learning project for experimenting with CI/CD pipelines, containerization, and orchestration.',
       tech: ['Docker', 'K8s', 'Jenkins', 'Python'],
-      link: 'https://github.com/yourusername/project2',
+      link: 'https://github.com/klkkristof/flask-cicd',
       image: './makefile.png',
     },
     {
       title: 'Alerting tool',
-      description: 'I made this project to learn about monitoring and alerting.',
+      description: 'I made this project to learn more about monitoring and alerting.',
       tech: ['Python', 'Grafana', 'Prometheus', 'Docker'],
       link: 'https://github.com/klkkristof/Monalert',
       image: './monitor.png',

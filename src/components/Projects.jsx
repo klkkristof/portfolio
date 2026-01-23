@@ -69,18 +69,26 @@ const Projects = () => {
       image: '/regweb.jpg',
     },
     {
+      title: 'Home Media Server',
+      description: 'Complete Docker-based homelab media server setup for Linux. Features Jellyfin for streaming, qBittorrent for downloads, Prowlarr for indexer management, and Tailscale for secure remote access.',
+      tech: ['Linux', 'Docker'],
+      link: 'https://github.com/klkkristof/movieserver',
+      image: '/jelly.png'
+
+    },
+    {
       title: 'CI/CD pipeline',
       description: 'Learning project for experimenting with CI/CD pipelines, containerization, and orchestration.',
       tech: ['Docker', 'K8s', 'Jenkins', 'Python'],
       link: 'https://github.com/klkkristof/flask-cicd',
-      image: './makefile.png',
+      image: '/makefile.png',
     },
     {
       title: 'Alerting tool',
       description: 'I made this project to learn more about monitoring and alerting.',
       tech: ['Python', 'Grafana', 'Prometheus', 'Docker'],
       link: 'https://github.com/klkkristof/Monalert',
-      image: './monitor.png',
+      image: '/monitor.png',
     },
   ];
 
